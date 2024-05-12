@@ -1,0 +1,29 @@
+body {
+    background-color: #F6F6FA;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-content {
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
