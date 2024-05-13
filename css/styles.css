@@ -10,6 +10,8 @@ body {
     flex-direction: row-reverse;
 }
 
+/* Main Content */
+
 .main-content {
     padding-top: 80px;
     padding-left: 80px;
@@ -17,6 +19,87 @@ body {
     box-sizing: border-box;
 }
 
+/* Sidebar */
+
+.sidebar {
+    background: #E0EBFE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar-cintent {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+/* Contacts */
+
+.contacts-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contacts-type {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
+
+.contacts-link {
+    color: #2979FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.contacts-item {
+    margin-top: 0;
+    margin-bottom: 4px;    
+    color: #2979FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contacts-container {
+    margin-bottom: 40px;
+}
+
+/* Skills Container */
+
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.skills-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    padding-left: 16px;
+}
+
+.skills-list-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
 /* 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
